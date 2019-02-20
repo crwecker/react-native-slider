@@ -20,11 +20,11 @@
     "clean": "rimraf lib",
     "start": "node_modules/react-native/packager/packager.sh",
     "build": "babel src --out-dir lib",
-    "prepare": "npm run clean && npm run build"
+    "preinstall": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jeanregisser/react-native-slider.git"
+    "url": "https://github.com/crwecker/react-native-slider.git"
   },
   "dependencies": {
     "babel": "^6.23.0",

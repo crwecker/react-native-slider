@@ -20,7 +20,7 @@
     "clean": "rimraf lib",
     "start": "node_modules/react-native/packager/packager.sh",
     "build": "babel src --out-dir lib",
-    "prepare": "npm run clean && npm run build"
+    "prepack": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
